@@ -1,0 +1,134 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blok1 {
+  height: 200px;
+  width: 20vw;
+  background-color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
+
+
+.blok2 {
+  height: 200px;
+  width: 78vw;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  main1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+main2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.blok3 {
+  height: 200px;
+  width: 98vw;
+  background-color: rgb(255, 88, 88);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
+
+main3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  main3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.blok4 {
+  height: 200px;
+  width: 78vw;
+  background-color: rgb(177, 177, 177);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
+
+.blok5 {
+  height: 200px;
+  width: 20vw;
+  background-color: rgb(255, 0, 208);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
+
+main4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.blok6 {
+  height: 100px;
+  width: 98vw;
+  background-color: rgb(0, 60, 255);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blok6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+}
